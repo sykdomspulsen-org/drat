@@ -1,0 +1,9 @@
+Package: spltidy
+Version: 2022.2.17
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2, spldata, splstyle, spltime
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, gt, dplyr,
+        purrr
+License: MIT + file LICENSE
+MD5sum: 3bcc149b0f76289b4dccbc2879bf9d5a
+NeedsCompilation: no
