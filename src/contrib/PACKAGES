@@ -55,7 +55,7 @@ Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
 License: MIT + file LICENSE
-MD5sum: ca4503278c4e1120278caa802c3a8c3b
+MD5sum: 64cbe8e1cdf37e90d9c0f71d805ee8f6
 NeedsCompilation: no
 
 Package: splstyle
