@@ -14,7 +14,7 @@ Version: 2022.2.17
 Depends: R (>= 3.3.0)
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
 License: MIT
-MD5sum: 6aa3a0950070ab54350f09e5b305e491
+MD5sum: e8c67112014402f0a64e2bc5b3c06eea
 NeedsCompilation: no
 
 Package: plnr
