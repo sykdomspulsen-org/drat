@@ -37,7 +37,7 @@ Imports: doFuture, data.table, crayon, DBI, dplyr, fhidata, fhiplot,
         tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 47d88608d7f4316d7537a744058946a5
+MD5sum: 2372ed7acbc6cb51e573aebc393dd01e
 NeedsCompilation: no
 
 Package: spldata
