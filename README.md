@@ -32,4 +32,4 @@ Rscript -e 'install.packages("spldata", repos = c("https://docs.sykdomspulsen.no
 
 ### License
 
-Packages in this repository are available under their respective license, which is generally MIT.
+Packages in this repository are available under their respective licenses (generally MIT).
