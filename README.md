@@ -1,6 +1,6 @@
 ## drat repository
 
-This [drat](http://dirk.eddelbuettel.com/code/drat.html) package repository provides splverse packages.
+This [drat](http://dirk.eddelbuettel.com/code/drat.html) package repository provides [splverse](https://docs.sykdomspulsen.org/packages.html) packages.
 
 ### Usage
 
