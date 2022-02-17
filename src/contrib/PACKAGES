@@ -98,5 +98,5 @@ LinkingTo: Rcpp, RcppProgress
 Suggests: testthat, knitr, glue, rmarkdown, distcrete, HDInterval,
         epitrix
 License: GPL-3
-MD5sum: 28b9a2e35882041c2f51b50ff5780a8f
+MD5sum: 44b034995ba2387ade710002ab9fc0e9
 NeedsCompilation: yes
