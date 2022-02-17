@@ -21,7 +21,7 @@ update.packages()
 
 ```{r}
 # pass the repo info directly to install.packages()
-install.packages("sykdomspulsen", repos = c("https://docs.sykdomspulsen.no/drat", "https://cran.rstudio.com"))
+install.packages("spldata", repos = c("https://docs.sykdomspulsen.no/drat", "https://cran.rstudio.com"))
 ```
 
 #### Usage without drat on the shell
