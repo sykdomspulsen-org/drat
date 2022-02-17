@@ -87,3 +87,16 @@ Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 License: MIT + file LICENSE
 MD5sum: 15050a75fa5462fdb088e2b4b87998cc
 NeedsCompilation: no
+
+Package: spread
+Version: 2022.2.17
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 0.9.4), RcppProgress (>= 0.1), data.table, ggplot2,
+        fhidata (>= 2019.1.23), stringr, readxl, matrixStats, zoo,
+        foreach, magrittr, stats, future.apply
+LinkingTo: Rcpp, RcppProgress
+Suggests: testthat, knitr, glue, rmarkdown, distcrete, HDInterval,
+        epitrix
+License: GPL-3
+MD5sum: 5b1687342692a343181dec857b6c5f63
+NeedsCompilation: yes
