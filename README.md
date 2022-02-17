@@ -21,13 +21,13 @@ update.packages()
 
 ```{r}
 # pass the repo info directly to install.packages()
-install.packages("sykdomspulsen", repos="https://docs.sykdomspulsen.org/drat")
+install.packages("sykdomspulsen", repos = c("https://docs.sykdomspulsen.org/drat", "https://cran.rstudio.com"))
 ```
 
 #### Usage without drat on the shell
 
 ```{sh}
-Rscript -e 'install.packages("Rcpp", repos="https://docs.sykdomspulsen.org/drat")'
+Rscript -e 'install.packages("spldata", repos = c("https://docs.sykdomspulsen.org/drat", "https://cran.rstudio.com"))'
 ```
 
 ### License
