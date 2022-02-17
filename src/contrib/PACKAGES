@@ -46,7 +46,7 @@ Imports: data.table
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, magrittr,
         ggplot2
 License: MIT + file LICENSE
-MD5sum: 62c968c387b64f0c2f4df8d09051d7ea
+MD5sum: c9dda905698bda357922fda703624c8b
 NeedsCompilation: no
 
 Package: splshiny
