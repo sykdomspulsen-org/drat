@@ -24,7 +24,7 @@ Imports: data.table, methods, R6, uuid, foreach, fs, glue, org (>=
         2020.2.18), usethis, huxtable, purrr, utils
 Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl
 License: MIT
-MD5sum: fd2a7aef5898e0d582057c1028c8e758
+MD5sum: 950e444c87c1faed7a06d92ad3e1a182
 NeedsCompilation: no
 
 Package: spldata
