@@ -27,6 +27,19 @@ License: MIT
 MD5sum: 950e444c87c1faed7a06d92ad3e1a182
 NeedsCompilation: no
 
+Package: sc
+Version: 8.0.2
+Depends: R (>= 4.1.0)
+Imports: doFuture, data.table, crayon, DBI, dplyr, fhidata, fhiplot,
+        foreach, fs, future, glue, lubridate, magrittr, odbc, openssl,
+        parallel, pbmcapply, plnr (>= 2021.5.4), pool, processx,
+        progress, progressr, pryr, qs, R6, rlang, rstudioapi, stringr,
+        tidyr, uuid
+Suggests: testthat, knitr, usethis
+License: GPL-3 + file LICENSE
+MD5sum: 47d88608d7f4316d7537a744058946a5
+NeedsCompilation: no
+
 Package: spldata
 Version: 2022.2.17
 Depends: R (>= 3.5.0)
