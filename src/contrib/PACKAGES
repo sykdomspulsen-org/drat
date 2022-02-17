@@ -5,5 +5,5 @@ Imports: data.table, magrittr, ggplot2, spldata, splstyle, spltime
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, gt, dplyr,
         purrr
 License: MIT + file LICENSE
-MD5sum: a75c231e72b5d2a08c988b8cf494d52e
+MD5sum: e02b3a9bc83f3372bc345c2cd300124a
 NeedsCompilation: no
