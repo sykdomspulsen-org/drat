@@ -6,7 +6,7 @@ Imports: data.table, magrittr, glue, pbs, dlnm, lubridate, mvmeta,
         progress, fhidata
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 17bfec317d0f640aa0ab782873cf7773
+MD5sum: 42fee243260e611868be89880b673e4c
 NeedsCompilation: no
 
 Package: org
