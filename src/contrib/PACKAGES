@@ -107,7 +107,7 @@ Depends: R (>= 3.5.0)
 Imports: data.table, lubridate, magrittr, purrr, stringr
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: aea56254f0c3b79209a17d427943cb4c
+MD5sum: a1ebbe3dbc2b363eaaa475fa2f3acbd0
 NeedsCompilation: no
 
 Package: spread
