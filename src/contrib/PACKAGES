@@ -101,6 +101,15 @@ License: MIT + file LICENSE
 MD5sum: a28dd58fb03a66c6c228d38bab6cc6a3
 NeedsCompilation: no
 
+Package: spltime
+Version: 2022.2.18
+Depends: R (>= 3.5.0)
+Imports: data.table, lubridate, magrittr, purrr, stringr
+Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: aea56254f0c3b79209a17d427943cb4c
+NeedsCompilation: no
+
 Package: spread
 Version: 2022.2.17
 Depends: R (>= 3.5.0)
