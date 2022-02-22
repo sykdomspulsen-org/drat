@@ -9,6 +9,17 @@ License: MIT + file LICENSE
 MD5sum: 42fee243260e611868be89880b673e4c
 NeedsCompilation: no
 
+Package: nowcast
+Version: 2022.2.22
+Depends: R (>= 3.5.0)
+Imports: data.table, magrittr, purrr, ggplot2, pbs, dlnm, lubridate,
+        mvmeta, tsModel, stats, lme4, arm, tibble, stringr, utils,
+        progress, boot
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, fhidata, attrib
+License: MIT + file LICENSE
+MD5sum: 156e1f3381138ae751bcfee9ff828884
+NeedsCompilation: no
+
 Package: org
 Version: 2022.2.17
 Depends: R (>= 3.3.0)
