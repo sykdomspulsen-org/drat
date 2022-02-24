@@ -111,7 +111,7 @@ Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2, shiny
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, spldata
 License: MIT + file LICENSE
-MD5sum: b50e67773e0a050f39ea6fb90ef66cfb
+MD5sum: 559cb1e446f9c73ec7a6455a1b1053d0
 NeedsCompilation: no
 
 Package: splstyle
