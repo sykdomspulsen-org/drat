@@ -105,6 +105,15 @@ License: MIT + file LICENSE
 MD5sum: 64cbe8e1cdf37e90d9c0f71d805ee8f6
 NeedsCompilation: no
 
+Package: splshiny
+Version: 2022.2.24
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2, shiny
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, spldata
+License: MIT + file LICENSE
+MD5sum: b50e67773e0a050f39ea6fb90ef66cfb
+NeedsCompilation: no
+
 Package: splstyle
 Version: 2022.2.17
 Depends: R (>= 3.3.0)
