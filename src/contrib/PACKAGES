@@ -39,7 +39,7 @@ Imports: data.table, magrittr, purrr, ggplot2, pbs, dlnm, lubridate,
         progress, boot
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, fhidata, attrib
 License: MIT + file LICENSE
-MD5sum: 46878f9486dba3bca3ebf538df264420
+MD5sum: 4de469666d7497478065d63239a87a01
 NeedsCompilation: no
 
 Package: org
