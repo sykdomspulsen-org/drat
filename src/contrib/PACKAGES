@@ -223,7 +223,7 @@ Depends: R (>= 3.5.0)
 Imports: data.table, dplyr, lubridate, magrittr, purrr, stringr
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: c31a8cc9ffd967b51ea49929c50bfe1d
+MD5sum: e9abda9eff840c45ed478cb197925faa
 NeedsCompilation: no
 
 Package: spread
