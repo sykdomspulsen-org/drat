@@ -196,7 +196,7 @@ Imports: data.table, magrittr, ggplot2, spldata, splstyle, spltime,
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, gt, dplyr,
         purrr
 License: MIT + file LICENSE
-MD5sum: 91786c39c8bab9db8bc614e30ebdeb8e
+MD5sum: 37c41ff803a1673956176cc9bda3f9ec
 NeedsCompilation: no
 
 Package: spltime
