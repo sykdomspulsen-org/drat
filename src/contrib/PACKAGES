@@ -51,7 +51,7 @@ Imports: data.table, magrittr, purrr, ggplot2, pbs, dlnm, lubridate,
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, fhidata,
         attrib, spltime
 License: MIT + file LICENSE
-MD5sum: 347888e5f77b905e3cf1fe1fc45b2e09
+MD5sum: 183e1e89aeda69ca6ed2a9b0d4a4189e
 NeedsCompilation: no
 
 Package: org
