@@ -82,7 +82,7 @@ Imports: doFuture, data.table, crayon, DBI, dplyr, fhidata, fhiplot,
         stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 9be88660f6dc2751580914e3f22be513
+MD5sum: 8c38aa850363ec6337ded1dbf63df79b
 NeedsCompilation: no
 
 Package: spldata
