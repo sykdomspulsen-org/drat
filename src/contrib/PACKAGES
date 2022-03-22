@@ -78,11 +78,11 @@ Depends: R (>= 4.1.0)
 Imports: doFuture, data.table, crayon, DBI, dplyr, fhidata, fhiplot,
         foreach, fs, future, glue, lubridate, magrittr, odbc, openssl,
         parallel, pbmcapply, plnr (>= 2021.5.4), pool, processx,
-        progress, progressr, pryr, qs, R6, rlang, rstudioapi, stringr,
-        tidyr, uuid
+        progress, progressr, pryr, qs, R6, rlang, rstudioapi, spltidy,
+        stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 0889ac5dd5ca43e01f269b10670f2224
+MD5sum: 9be88660f6dc2751580914e3f22be513
 NeedsCompilation: no
 
 Package: spldata
