@@ -97,14 +97,14 @@ NeedsCompilation: no
 Package: sc
 Version: 8.0.2
 Depends: R (>= 4.1.0)
-Imports: doFuture, data.table, crayon, DBI, dplyr, fhidata, fhiplot,
-        foreach, fs, future, glue, lubridate, magrittr, odbc, openssl,
-        parallel, pbmcapply, plnr (>= 2021.5.4), pool, processx,
-        progress, progressr, pryr, qs, R6, rlang, rstudioapi, spltidy,
-        stringr, tidyr, uuid
+Imports: doFuture, data.table, crayon, DBI, digest, dplyr, fhidata,
+        fhiplot, foreach, fs, future, glue, lubridate, magrittr, odbc,
+        openssl, parallel, pbmcapply, plnr (>= 2021.5.4), pool,
+        processx, progress, progressr, pryr, qs, R6, rlang, rstudioapi,
+        spltidy, stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 71920376b6376ade715b8e8ae6b2ae15
+MD5sum: 017aa1cc36d684a1ff69460f70a9e0d2
 NeedsCompilation: no
 
 Package: spldata
