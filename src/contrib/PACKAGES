@@ -124,7 +124,7 @@ Imports: doFuture, data.table, crayon, DBI, digest, dplyr, fhidata,
         spltidy, stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 5a9199abcee85e5911d6d70fe90db856
+MD5sum: adac296667195a6d8b21162d9e884ee1
 NeedsCompilation: no
 
 Package: spldata
