@@ -342,6 +342,17 @@ License: MIT + file LICENSE
 MD5sum: 1ebf64e3a4ba2193449f8e5000f438ad
 NeedsCompilation: no
 
+Package: spltidy
+Version: 2022.4.1
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2, spldata, splstyle, spltime,
+        crayon, digest, stringr, methods, tidyr
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, gt, dplyr,
+        purrr
+License: MIT + file LICENSE
+MD5sum: d5b6efd97ed349501e540d45c83768b6
+NeedsCompilation: no
+
 Package: spltime
 Version: 2022.2.17
 Depends: R (>= 3.5.0)
