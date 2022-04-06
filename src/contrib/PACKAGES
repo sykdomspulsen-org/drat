@@ -171,6 +171,15 @@ License: GPL-3 + file LICENSE
 MD5sum: 326bf24c2216a8420b6d4d53604be4b4
 NeedsCompilation: no
 
+Package: splalert
+Version: 2022.4.6
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
+License: MIT + file LICENSE
+MD5sum: 9c0804b945070a44883c61febae5c20e
+NeedsCompilation: no
+
 Package: spldata
 Version: 2022.2.17
 Depends: R (>= 3.5.0)
