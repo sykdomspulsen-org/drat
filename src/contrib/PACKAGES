@@ -304,7 +304,7 @@ Imports: data.table, ggplot2, glue, huxtable, htmlTable, magrittr,
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, lemon, fhi,
         fhidata, fhimaps
 License: MIT
-MD5sum: 9b9b130bac83278e252af08f86f859bc
+MD5sum: 2137bcaf0a37d48e19320528ae556938
 NeedsCompilation: no
 
 Package: spltidy
