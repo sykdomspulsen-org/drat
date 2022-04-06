@@ -187,7 +187,7 @@ Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
 License: MIT + file LICENSE
-MD5sum: 9c0804b945070a44883c61febae5c20e
+MD5sum: 30b8d45173ceef80e18e3c2c6fe6932f
 NeedsCompilation: no
 
 Package: spldata
