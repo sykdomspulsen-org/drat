@@ -178,7 +178,7 @@ Imports: doFuture, data.table, crayon, DBI, digest, dplyr, fhidata,
         spltidy, stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 45a0404a57979f4e54d6710dd25d1193
+MD5sum: e4c7989c60658380ff398f90a286d84e
 NeedsCompilation: no
 
 Package: splalert
