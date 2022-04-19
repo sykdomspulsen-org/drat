@@ -211,7 +211,7 @@ Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2, glm2, spltidy, spltime
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
 License: MIT + file LICENSE
-MD5sum: 855346859f5acf3b9b7710e313370b84
+MD5sum: 09e22ce76c445ba187ebf1212ba2fade
 NeedsCompilation: no
 
 Package: splalert
