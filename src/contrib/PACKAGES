@@ -215,6 +215,15 @@ MD5sum: 09e22ce76c445ba187ebf1212ba2fade
 NeedsCompilation: no
 
 Package: splalert
+Version: 2022.4.20
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2, glm2, spltidy, spltime, stringr
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, splstyle
+License: MIT + file LICENSE
+MD5sum: 3b9c1169ef03de22ae06609da9b4a970
+NeedsCompilation: no
+
+Package: splalert
 Version: 2022.4.6
 Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2
