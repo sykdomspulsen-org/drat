@@ -199,10 +199,10 @@ Imports: doFuture, data.table, crayon, DBI, digest, dplyr, fhidata,
         fhiplot, foreach, fs, future, glue, lubridate, magrittr, odbc,
         openssl, parallel, pbmcapply, plnr (>= 2021.5.4), pool,
         processx, progress, progressr, pryr, qs, R6, rlang, rstudioapi,
-        spltidy, stringr, tidyr, uuid
+        spltidy, splutil, stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 9e2e24eeb375da57808d4b0a310bc145
+MD5sum: 7610a7b5d98cce8ea69dcf7a602eeddc
 NeedsCompilation: no
 
 Package: splalert
