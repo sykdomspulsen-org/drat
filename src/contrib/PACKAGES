@@ -202,7 +202,7 @@ Imports: doFuture, data.table, crayon, DBI, digest, dplyr, fhidata,
         spltidy, splutil, stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 7610a7b5d98cce8ea69dcf7a602eeddc
+MD5sum: 60dfb3710f127fac126f8166cdef94bb
 NeedsCompilation: no
 
 Package: splalert
