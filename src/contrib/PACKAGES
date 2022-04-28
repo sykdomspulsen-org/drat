@@ -583,7 +583,7 @@ Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
 License: MIT + file LICENSE
-MD5sum: a3354f151bd79c5462139b5283a6ebaa
+MD5sum: 4cc19063da5093ccb8cd01c76fb38b27
 NeedsCompilation: no
 
 Package: spread
