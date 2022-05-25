@@ -595,6 +595,17 @@ MD5sum: 567731fe800ff4ad28a88e94be61855a
 NeedsCompilation: no
 
 Package: spltidy
+Version: 2022.5.25
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2, spldata, splstyle, spltime,
+        crayon, digest, stringr, methods, tidyr, qs, openssl
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, gt, dplyr,
+        purrr
+License: MIT + file LICENSE
+MD5sum: c951cceabb5b18a5fdf42c210a1b97a2
+NeedsCompilation: no
+
+Package: spltidy
 Version: 2022.5.5
 Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2, spldata, splstyle, spltime,
