@@ -641,12 +641,12 @@ NeedsCompilation: no
 Package: spltidy
 Version: 2022.5.31
 Depends: R (>= 3.3.0)
-Imports: data.table, magrittr, ggplot2, spldata, spltime, crayon,
-        digest, stringr, methods, tidyr, qs, openssl
+Imports: data.table, magrittr, ggplot2, spldata, splstyle, spltime,
+        crayon, digest, stringr, methods, tidyr, qs, openssl
 Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, gt, dplyr,
         purrr
 License: MIT + file LICENSE
-MD5sum: 166978bab1a6f714efa09291c7b5f3c8
+MD5sum: fd161fac461140ccd00ca2c4168f9712
 NeedsCompilation: no
 
 Package: spltidy
