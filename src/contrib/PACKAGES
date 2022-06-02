@@ -203,6 +203,17 @@ License: MIT
 MD5sum: dea98b63713f9d14458aee6001567432
 NeedsCompilation: no
 
+Package: plnr
+Version: 2022.6.2
+Depends: R (>= 3.3.0)
+Imports: data.table, methods, R6, uuid, foreach, fs, glue, org (>=
+        2020.2.18), usethis, huxtable, purrr, utils, digest
+Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl,
+        magrittr
+License: MIT
+MD5sum: 5cebc38bbd035b3955f7d6db309b900f
+NeedsCompilation: no
+
 Package: sc
 Version: 8.0.2
 Depends: R (>= 4.1.0)
