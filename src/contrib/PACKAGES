@@ -211,7 +211,7 @@ Imports: data.table, methods, R6, uuid, foreach, fs, glue, org (>=
 Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl,
         magrittr
 License: MIT
-MD5sum: f3e646b06b0d4d3b6080e5396798a908
+MD5sum: a90921301cf8ebaea3ee4d8e97cc535e
 NeedsCompilation: no
 
 Package: sc
