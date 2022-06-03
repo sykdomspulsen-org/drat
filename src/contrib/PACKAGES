@@ -218,11 +218,11 @@ Package: plnr
 Version: 2022.6.3
 Depends: R (>= 3.3.0)
 Imports: data.table, methods, R6, uuid, foreach, fs, glue, org (>=
-        2020.2.18), usethis, huxtable, purrr, utils, digest
+        2020.2.18), usethis, huxtable, purrr, utils, digest, stats
 Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl,
         magrittr
 License: MIT
-MD5sum: 11e0f633f3d809d8dcac3dcf1f8a62c3
+MD5sum: 2b3006f2b83a18134324d4a66e789e95
 NeedsCompilation: no
 
 Package: sc
