@@ -390,7 +390,7 @@ Suggests: testthat, fhidata, knitr, rmarkdown, geojsonio, broom,
         readxl, zoo, crayon, fs, sp, forcats, ncdf4, reshape2, sf,
         methods, ggrepel, leaflet, magrittr
 License: MIT + file LICENSE
-MD5sum: f60abfe41ca40afb42bc33c244b11317
+MD5sum: 82ff9d007ee474ae57fd0e8aa3c67427
 NeedsCompilation: no
 
 Package: splshiny
