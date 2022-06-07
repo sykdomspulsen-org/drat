@@ -122,6 +122,14 @@ License: MIT
 MD5sum: e8c67112014402f0a64e2bc5b3c06eea
 NeedsCompilation: no
 
+Package: org
+Version: 2022.6.7
+Depends: R (>= 3.3.0)
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
+License: MIT + file LICENSE
+MD5sum: bfbae7ecc74755e3844f80087162f124
+NeedsCompilation: no
+
 Package: plnr
 Version: 2022.2.17
 Depends: R (>= 3.3.0)
