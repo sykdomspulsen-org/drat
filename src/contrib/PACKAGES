@@ -768,6 +768,15 @@ License: MIT + file LICENSE
 MD5sum: 6600d67cc656ff036a38fd864418153f
 NeedsCompilation: no
 
+Package: splutil
+Version: 2022.6.7
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
+License: MIT + file LICENSE
+MD5sum: 4a51f1321a82afb368b5f46959259671
+NeedsCompilation: no
+
 Package: spread
 Version: 2022.2.17
 Depends: R (>= 3.5.0)
