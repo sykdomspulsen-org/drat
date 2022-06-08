@@ -430,7 +430,7 @@ Imports: data.table, utils
 Suggests: testthat, knitr, rmarkdown, ggplot2, magrittr, ggrepel,
         leaflet, sf, fhidata
 License: MIT + file LICENSE
-MD5sum: a9eb8ba063b37458dd50e69cada08061
+MD5sum: 467780818e84631d4317fbd12c9d2d8b
 NeedsCompilation: no
 
 Package: splshiny
