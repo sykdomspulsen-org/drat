@@ -252,7 +252,7 @@ Imports: data.table, R6, uuid, foreach, fs, glue, usethis, purrr,
 Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl,
         magrittr
 License: MIT + file LICENSE
-MD5sum: 08e6d37653ab050d8fad4c27d6fa2e69
+MD5sum: 5520526809beda778fc0c2cc7283cadf
 NeedsCompilation: no
 
 Package: sc
