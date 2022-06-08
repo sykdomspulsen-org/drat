@@ -423,6 +423,16 @@ License: MIT + file LICENSE
 MD5sum: 82ff9d007ee474ae57fd0e8aa3c67427
 NeedsCompilation: no
 
+Package: splmaps
+Version: 2022.6.8
+Depends: R (>= 3.5.0)
+Imports: data.table, utils
+Suggests: testthat, knitr, rmarkdown, ggplot2, magrittr, ggrepel,
+        leaflet, sf, fhidata
+License: MIT + file LICENSE
+MD5sum: a9eb8ba063b37458dd50e69cada08061
+NeedsCompilation: no
+
 Package: splshiny
 Version: 2022.2.17
 Depends: R (>= 3.3.0)
