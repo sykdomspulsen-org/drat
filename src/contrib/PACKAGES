@@ -446,6 +446,16 @@ MD5sum: c9dda905698bda357922fda703624c8b
 NeedsCompilation: no
 
 Package: splmaps
+Version: 2022.6.14
+Depends: R (>= 3.5.0)
+Imports: data.table, utils
+Suggests: testthat, knitr, rmarkdown, ggplot2, magrittr, ggrepel,
+        leaflet, sf, fhidata, spldata
+License: MIT + file LICENSE
+MD5sum: feeefc545c37c7b06ecacb8591183cf6
+NeedsCompilation: no
+
+Package: splmaps
 Version: 2022.6.6
 Depends: R (>= 3.5.0)
 Imports: data.table, utils
