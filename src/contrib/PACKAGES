@@ -879,6 +879,15 @@ MD5sum: 4cc19063da5093ccb8cd01c76fb38b27
 NeedsCompilation: no
 
 Package: splutil
+Version: 2022.6.20
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, ggplot2
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue
+License: MIT + file LICENSE
+MD5sum: 2921531d7228b40d56ad1a057a3bdb78
+NeedsCompilation: no
+
+Package: splutil
 Version: 2022.6.3
 Depends: R (>= 3.3.0)
 Imports: data.table, magrittr, ggplot2
