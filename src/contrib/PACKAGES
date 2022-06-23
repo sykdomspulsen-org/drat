@@ -278,7 +278,7 @@ Imports: data.table, crayon, DBI, dplyr, fhidata, fhiplot, foreach, fs,
         stats, stringr, tidyr, uuid
 Suggests: testthat, knitr, usethis
 License: GPL-3 + file LICENSE
-MD5sum: 0bd05c529cc4cd743bccb77037002831
+MD5sum: 2d4da16e67471c5b1953bd977ac0b6af
 NeedsCompilation: no
 
 Package: splalert
