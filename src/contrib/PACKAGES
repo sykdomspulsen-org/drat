@@ -962,3 +962,16 @@ Suggests: testthat, knitr, glue, rmarkdown, distcrete, HDInterval,
 License: GPL-3
 MD5sum: 44b034995ba2387ade710002ab9fc0e9
 NeedsCompilation: yes
+
+Package: spread
+Version: 2022.7.17
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 0.9.4), RcppProgress (>= 0.1), data.table, ggplot2,
+        fhidata (>= 2019.1.23), stringr, readxl, matrixStats, zoo,
+        foreach, magrittr, stats, future.apply
+LinkingTo: Rcpp, RcppProgress
+Suggests: testthat, knitr, glue, rmarkdown, distcrete, HDInterval,
+        epitrix
+License: GPL-3
+MD5sum: b0cae0c9211341c95758157a03e21a72
+NeedsCompilation: yes
