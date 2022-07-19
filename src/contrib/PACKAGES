@@ -493,7 +493,7 @@ Suggests: testthat, broom, crayon, dplyr, forcats, fs, geojsonio,
         purrr, readxl, reshape2, rgeos, rmarkdown, rmapshaper,
         rstudioapi, stringr, sp, sf, tidyr, zoo
 License: MIT
-MD5sum: 9753efeb257256467346754df9010971
+MD5sum: 24e9f19359c5ea164b60d96c96542b48
 NeedsCompilation: no
 
 Package: splmaps
