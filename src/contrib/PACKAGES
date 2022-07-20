@@ -512,8 +512,8 @@ Suggests: testthat, broom, crayon, dplyr, forcats, fs, geojsonio,
         ggplot2, glue, knitr, lubridate, mapproj, methods, ncdf4,
         purrr, readxl, reshape2, rgeos, rmarkdown, rmapshaper,
         rstudioapi, stringr, sp, sf, tidyr, zoo
-License: MIT
-MD5sum: 85a6b19a5c8fb280ae7f96fefa4b79d7
+License: MIT + file LICENSE
+MD5sum: 90a7894a3f645b7141977aa60e21682b
 NeedsCompilation: no
 
 Package: splmaps
