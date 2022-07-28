@@ -396,6 +396,17 @@ License: MIT + file LICENSE
 MD5sum: fff6617554918e5ed1abda8feaa35537
 NeedsCompilation: no
 
+Package: splalert
+Version: 2022.7.28
+Depends: R (>= 3.3.0)
+Imports: data.table, magrittr, dplyr, ggplot2, glm2, spltidy, spltime,
+        stringr, lubridate, surveillance
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, splstyle,
+        spldata, splmaps, ggrepel, plnr
+License: MIT + file LICENSE
+MD5sum: c8ea006803774f8540cbba307f604ec6
+NeedsCompilation: no
+
 Package: spldata
 Version: 2022.2.17
 Depends: R (>= 3.5.0)
