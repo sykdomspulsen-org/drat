@@ -1,21 +1,38 @@
 Package: attrib
 Version: 2022.2.17
 Depends: R (>= 3.5.0)
-Imports: data.table, magrittr, glue, pbs, dlnm, lubridate, mvmeta,
-        tsModel, stats, lme4, arm, tibble, stringr, ggplot2, utils,
-        progress, fhidata
+Imports: data.table, magrittr, glue, pbs, dlnm, lubridate, mvmeta, tsModel, stats, lme4, arm, tibble,
+           stringr, ggplot2, utils, progress, fhidata
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
 MD5sum: 17bfec317d0f640aa0ab782873cf7773
 NeedsCompilation: no
 
+Package: brain
+Version: 2020.03.15
+Depends: R (>= 3.4.0)
+Imports: data.table, R6, fd, fhidata, attrib, ggplot2, magrittr, dplyr, fhi, glue, zoo, lubridate,
+           FluMoDL, fancycut, flumomo, readxl, stringr
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+MD5sum: 1e65e1d62b359471c1721064b62186a4
+NeedsCompilation: no
+
+Package: drathelper
+Version: 2020.9.2
+Depends: R (>= 3.3.0)
+Imports: drat, devtools
+Suggests: testthat, knitr, rmarkdown, data.table, glue, httr, huxtable, miniCRAN, stringr
+License: GPL-3
+MD5sum: 6f3adb49c327d331823d6f6432f05cf1
+NeedsCompilation: no
+
 Package: fhi
 Version: 2020.8.19
 Depends: R (>= 3.5.0)
-Imports: ggplot2, grid, maptools, rmarkdown, stringr, readxl, gmailr,
-        broom, magrittr, lubridate, data.table, scales, tinytex, uuid,
-        processx, devtools, zoo, utils, fhidata, fs, glue, vctrs,
-        methods
+Imports: ggplot2, grid, maptools, rmarkdown, stringr, readxl, gmailr, broom, magrittr, lubridate,
+           data.table, scales, tinytex, uuid, processx, devtools, zoo, utils, fhidata, fs, glue, vctrs,
+           methods
 Suggests: testthat, knitr, usethis
 License: GPL-3
 MD5sum: cf2cf0578790b249cdf6eca121a80fa8
@@ -25,10 +42,9 @@ Package: fhidataold
 Version: 2021.9.6
 Depends: R (>= 3.5.0)
 Imports: data.table, stats, utils
-Suggests: testthat, broom, crayon, dplyr, forcats, fs, geojsonio,
-        ggplot2, glue, knitr, lubridate, mapproj, methods, ncdf4,
-        readxl, reshape2, rgeos, rmarkdown, rmapshaper, rstudioapi,
-        stringr, sp, sf, tidyr, zoo
+Suggests: testthat, broom, crayon, dplyr, forcats, fs, geojsonio, ggplot2, glue, knitr, lubridate,
+           mapproj, methods, ncdf4, readxl, reshape2, rgeos, rmarkdown, rmapshaper, rstudioapi, stringr,
+           sp, sf, tidyr, zoo
 License: GPL-3
 MD5sum: a537e3237872aedbe8d4192d4b6f9433
 NeedsCompilation: no
@@ -37,10 +53,9 @@ Package: fhimaps
 Version: 2021.8.5
 Depends: R (>= 3.5.0)
 Imports: data.table, utils
-Suggests: testthat, fhidata, knitr, rmarkdown, geojsonio, broom,
-        rmapshaper, ggplot2, rgeos, mapproj, stringr, glue, lubridate,
-        readxl, zoo, crayon, fs, sp, forcats, ncdf4, reshape2, sf,
-        methods, ggrepel, leaflet, magrittr
+Suggests: testthat, fhidata, knitr, rmarkdown, geojsonio, broom, rmapshaper, ggplot2, rgeos, mapproj,
+           stringr, glue, lubridate, readxl, zoo, crayon, fs, sp, forcats, ncdf4, reshape2, sf, methods,
+           ggrepel, leaflet, magrittr
 License: MIT
 MD5sum: f1f72a526328b200fa82998385a28b62
 NeedsCompilation: no
@@ -48,10 +63,9 @@ NeedsCompilation: no
 Package: fhiplot
 Version: 2022.2.22
 Depends: R (>= 3.3.0)
-Imports: data.table, ggplot2, glue, huxtable, htmlTable, magrittr,
-        openxlsx, purrr, rstudioapi, stringi, stringr, scales,
-Suggests: testthat, knitr, rmarkdown, datasets, fhidata, fhimaps,
-        lubridate, lemon, fhi
+Imports: data.table, ggplot2, glue, huxtable, htmlTable, magrittr, openxlsx, purrr, rstudioapi, stringi,
+           stringr, scales,
+Suggests: testthat, knitr, rmarkdown, datasets, fhidata, fhimaps, lubridate, lemon, fhi
 License: MIT
 MD5sum: c1bed0ff4773ef984df0e115430a0280
 NeedsCompilation: no
@@ -74,6 +88,16 @@ License: GPL-3
 MD5sum: 567932397dee83045628c4271b977a99
 NeedsCompilation: no
 
+Package: nowcast
+Version: 2022.4.18
+Depends: R (>= 3.5.0)
+Imports: data.table, magrittr, purrr, ggplot2, dplyr, pbs, dlnm, lubridate, mvmeta, tsModel, stats, lme4,
+           arm, tibble, stringr, utils, progress, boot
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, fhidata, attrib, spltime
+License: MIT + file LICENSE
+MD5sum: fa5b72ed95838c0019173694000a2f36
+NeedsCompilation: no
+
 Package: org
 Version: 2022.7.20
 Depends: R (>= 3.3.0)
@@ -93,10 +117,8 @@ NeedsCompilation: no
 Package: plnr
 Version: 2022.6.8
 Depends: R (>= 3.3.0)
-Imports: data.table, R6, uuid, foreach, fs, glue, usethis, purrr,
-        utils, digest, stats
-Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl,
-        magrittr
+Imports: data.table, R6, uuid, foreach, fs, glue, usethis, purrr, utils, digest, stats
+Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl, magrittr
 License: MIT + file LICENSE
 MD5sum: 5520526809beda778fc0c2cc7283cadf
 NeedsCompilation: no
@@ -104,53 +126,49 @@ NeedsCompilation: no
 Package: plnr
 Version: 2022.9.16
 Depends: R (>= 3.3.0)
-Imports: data.table, R6, uuid, foreach, fs, glue, usethis, purrr,
-        utils, digest, stats
-Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl,
-        magrittr
+Imports: data.table, R6, uuid, foreach, fs, glue, usethis, purrr, utils, digest, stats
+Suggests: testthat, knitr, rmarkdown, progressr, ggplot2, readxl, magrittr
 License: MIT + file LICENSE
 MD5sum: 3cfbe28bbdfdf6febe202ea4a0ca3374
+NeedsCompilation: no
+
+Package: spldata
+Version: 2022.7.20
+Depends: R (>= 3.5.0)
+Imports: data.table, stats, utils
+Suggests: testthat, broom, crayon, dplyr, forcats, fs, geojsonio, ggplot2, glue, knitr, lubridate,
+           mapproj, methods, ncdf4, purrr, readxl, reshape2, rgeos, rmarkdown, rmapshaper, rstudioapi,
+           stringr, sp, sf, tidyr, zoo
+License: MIT + file LICENSE
+MD5sum: c5ed315b220087ee85e9ce2cbf01f296
+NeedsCompilation: no
+
+Package: splmaps
+Version: 2022.6.14
+Depends: R (>= 3.5.0)
+Imports: data.table, utils
+Suggests: testthat, knitr, rmarkdown, ggplot2, magrittr, ggrepel, leaflet, sf, fhidata, spldata
+License: MIT + file LICENSE
+MD5sum: feeefc545c37c7b06ecacb8591183cf6
+NeedsCompilation: no
+
+Package: splstyle
+Version: 2022.10.26
+Depends: R (>= 3.3.0)
+Imports: data.table, ggplot2, glue, huxtable, htmlTable, magrittr, openxlsx, rstudioapi, stringi,
+           stringr, scales, fhiplot
+Suggests: testthat, knitr, rmarkdown, rstudioapi, glue, lemon, fhi, fhidata, fhimaps, spltime
+License: MIT
+MD5sum: 075d4495552731e1d2832dc2438f7041
 NeedsCompilation: no
 
 Package: spread
 Version: 2022.7.17
 Depends: R (>= 3.5.0)
-Imports: Rcpp (>= 0.9.4), RcppProgress (>= 0.1), data.table, ggplot2,
-        fhidata (>= 2019.1.23), stringr, readxl, matrixStats, zoo,
-        foreach, magrittr, stats, future.apply
+Imports: Rcpp (>= 0.9.4), RcppProgress (>= 0.1), data.table, ggplot2, fhidata (>= 2019.1.23), stringr,
+           readxl, matrixStats, zoo, foreach, magrittr, stats, future.apply
 LinkingTo: Rcpp, RcppProgress
-Suggests: testthat, knitr, glue, rmarkdown, distcrete, HDInterval,
-        epitrix
+Suggests: testthat, knitr, glue, rmarkdown, distcrete, HDInterval, epitrix
 License: GPL-3
 MD5sum: b0cae0c9211341c95758157a03e21a72
 NeedsCompilation: yes
-
-Package: sykdomspulslog
-Version: 2018.11.07
-Depends: R (>= 3.4.0)
-Suggests: testthat, knitr, usethis
-License: GPL-3
-MD5sum: 53b2133d3a99d03405550c0d80efd2d0
-NeedsCompilation: no
-
-Package: sykdomspulspdf
-Version: 2019.09.19
-Depends: R (>= 3.4.0)
-Imports: devtools, testthat, data.table, lubridate, grDevices, ggplot2,
-        fhi, fd, fhiplot, glue, lemon
-Suggests: testthat
-License: GPL-3
-MD5sum: 00d6a7cb47315f81ee696882344380e8
-NeedsCompilation: no
-
-Package: ui
-Version: 2020.05.07
-Depends: R (>= 3.5.0)
-Imports: data.table, R6, fd, fhidata, magrittr, RAWmisc, dplyr, fhi,
-        fhiplot, fs, glue, gridExtra, huxtable, writexl, sykdomspuls,
-        ggplot2, readxl, stringr, grDevices, cowplot, ggpubr,
-        lubridate, xlsx, magick, car, ggrepel, lemon, readr, scales
-Suggests: testthat, knitr, rmarkdown
-License: GPL-3
-MD5sum: 18799ac00d87a41af7f838545b1e3b74
-NeedsCompilation: no
