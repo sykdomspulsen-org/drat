@@ -215,12 +215,11 @@ NeedsCompilation: yes
 Package: spread
 Version: 2023.1.17
 Depends: R (>= 3.5.0)
-Imports: Rcpp (>= 0.9.4), RcppProgress (>= 0.1), data.table, ggplot2,
-        csdata (>= 2022.11.22), stringr, readxl, matrixStats, zoo,
-        foreach, magrittr, stats, future.apply
+Imports: Rcpp (>= 0.9.4), data.table, ggplot2, matrixStats, foreach,
+        magrittr, stats, future.apply
 LinkingTo: Rcpp, RcppProgress
-Suggests: testthat, knitr, glue, rmarkdown, csmaps, distcrete,
-        HDInterval, epitrix
+Suggests: testthat, knitr, glue, rmarkdown, RcppProgress (>= 0.1),
+        csdata (>= 2022.11.22), csmaps, distcrete, HDInterval, epitrix
 License: GPL-3
-MD5sum: f042ca174f5e9cae7d5ea9f55f891e89
+MD5sum: 37de58bbd6c9206b5e984efedcee1256
 NeedsCompilation: yes
