@@ -223,3 +223,15 @@ Suggests: testthat, knitr, glue, rmarkdown, RcppProgress (>= 0.1),
 License: GPL-3
 MD5sum: 37de58bbd6c9206b5e984efedcee1256
 NeedsCompilation: yes
+
+Package: spread
+Version: 2023.1.24
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 0.9.4), data.table, ggplot2, matrixStats, foreach,
+        magrittr, stats, future.apply
+LinkingTo: Rcpp, RcppProgress
+Suggests: testthat, knitr, glue, rmarkdown, RcppProgress (>= 0.1),
+        csdata (>= 2022.11.22), csmaps, distcrete, HDInterval, epitrix
+License: GPL-3
+MD5sum: f85f68384458db49690526df6c20fec6
+NeedsCompilation: yes
